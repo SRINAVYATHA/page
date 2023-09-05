@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    background-color: rgb(246, 245, 243);
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 60px;
+    background-color: blanchedalmond(13, 215, 70);
+}
+.logo{
+    color: #0aa308;
+    font-weight: 600;
+    font-size: 2.4rem;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.navbar a {
+    color: black;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+.navbar a:hover{
+    color: #0cb066;
+    transition: .4s;
+}
+.home-txt{
+    color: black;
+}
+.img-bar{
+    float: right;
+    width: 50%;
+    height: 300px;
+    padding-right: 10%;
+}
+.home{
+    font-size: 30%;
+    padding-top: 15%;
+}
+.font{
+    font-weight: bold;
+    font-size: 50px;
+    color: crimson;
+    padding-left: 2%;
+    padding-top: 5%;
+
+}
+.font2{
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 3%;
+}
+.btn2{
+    font-size: 30;
+    padding-right: 50%;
+    padding-left: 30%;
+    padding-top: 5%;
+}
+.img2{
+    float: left;
+    height: 500px;
+    width: 60%;
+    padding: 7%;
+}
+.abt{
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(124, 11, 168);
+    padding-left: 50%;
+    padding-top: 20%;
+}
+.feav{
+    text-align: left;
+    padding-left: 12%;
+    padding-top: 11%;
+    font-weight: bold;
+    font-size: 50px;
+    color: blue;
+}
+.featur2{
+    text-align: left;
+    padding-left: 5%;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(8, 8, 8);
+}
+.featur3{
+    text-align: left;
+    padding-left: 5%;
+    font-weight: 15px;
+    font-size: 15px;
+    color: rgb(11, 11, 11);
+}
+.heading2{
+    text-align: center;
+    color: darkmagenta;
+    padding-top: 5%;
+    font-size: 50px;
+}
+.heading3{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 3%;
+}
+.bro
+{
+    flex-direction: row;
+    
+}
+
+.hey
+{
+    padding-left: 10%;
+    width: 10%;
+
+}
+.hei{
+    padding-left: 30%;
+}
+.hello
+{
+    padding-right: 1%;
+    padding-left: 30%;
+}
+.ser1{
+    color: brown;
+    font-size: large;
+    font-weight: bold;
+}
+.ser2{
+    color: brown;
+    font-size: large;
+    font-weight: bold;
+}
+.ser3{
+    color: brown;
+    font-size: large;
+    font-weight: bold;
+
+}
+.con1{
+    color: rgb(184, 12, 121);
+    font-size: 45px;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.con2{
+    padding-left: 5%;
+    font-size: 25px;
+}
